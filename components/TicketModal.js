@@ -1,4 +1,3 @@
-@"
 import { useEffect, useRef } from 'react'
 import QRCode from 'qrcode'
 
@@ -57,4 +56,3 @@ function adjustColor(hex, amt) {
   let b = Math.min(255,Math.max(0,(num&0x0000FF)+amt))
   return `rgb(${r},${g},${b})`
 }
-"@ | Out-File -FilePath components/TicketModal.js -Encoding utf8

@@ -1,4 +1,3 @@
-@"
 import { supabase } from '../../../lib/supabaseClient'
 
 export default async function handler(req, res) {
@@ -12,4 +11,3 @@ export default async function handler(req, res) {
   }
   res.status(405).end()
 }
-"@ | Out-File -FilePath pages/api/events/index.js -Encoding utf8

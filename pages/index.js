@@ -1,4 +1,3 @@
-@"
 import { useState, useEffect } from 'react'
 import Head from 'next/head'
 import EventCard from '../components/EventCard'
@@ -52,4 +51,3 @@ export default function Home() {
     </>
   )
 }
-"@ | Out-File -FilePath pages/index.js -Encoding utf8

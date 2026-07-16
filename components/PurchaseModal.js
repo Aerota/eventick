@@ -1,4 +1,3 @@
-@"
 import { useState } from 'react'
 
 export default function PurchaseModal({ event, onClose, onPurchase }) {
@@ -63,4 +62,3 @@ export default function PurchaseModal({ event, onClose, onPurchase }) {
     </div>
   )
 }
-"@ | Out-File -FilePath components/PurchaseModal.js -Encoding utf8

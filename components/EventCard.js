@@ -1,4 +1,3 @@
-@"
 export default function EventCard({ event, onBuy }) {
   const dateStr = new Date(event.event_date).toLocaleDateString('en-US', { month:'short', day:'numeric', year:'numeric' })
   return (
@@ -24,4 +23,3 @@ function adjustColor(hex, amt) {
   let b = Math.min(255,Math.max(0,(num&0x0000FF)+amt))
   return `rgb(${r},${g},${b})`
 }
-"@ | Out-File -FilePath components/EventCard.js -Encoding utf8

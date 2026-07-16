@@ -1,4 +1,3 @@
-@"
 /* ========== FULL TICKET SYSTEM CSS ========== */
 :root {
   --primary: #6C5CE7; --primary-dark: #5A4BD1; --accent: #FF6B6B;
@@ -92,4 +91,3 @@ th { background: #fafbfc; font-weight: 700; color: var(--text-light); text-trans
   .admin-sidebar nav a { white-space: nowrap; font-size: 0.8rem; padding: 8px 12px; }
   .admin-content { padding: 16px; }
 }
-"@ | Out-File -FilePath styles/globals.css -Encoding utf8

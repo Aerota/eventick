@@ -1,4 +1,3 @@
-@"
 import { useState, useEffect } from 'react'
 import Head from 'next/head'
 
@@ -219,4 +218,3 @@ function AddEventForm({ onDone, token }) {
     </>
   )
 }
-"@ | Out-File -FilePath pages/admin.js -Encoding utf8

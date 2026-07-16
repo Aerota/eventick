@@ -1,4 +1,3 @@
-@"
 import { useState, useEffect } from 'react'
 import Head from 'next/head'
 
@@ -74,4 +73,3 @@ export default function Scanner() {
     </>
   )
 }
-"@ | Out-File -FilePath pages/scanner.js -Encoding utf8

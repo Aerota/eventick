@@ -1,4 +1,3 @@
-@"
 export default async function handler(req, res) {
   if (req.method !== 'POST') return res.status(405).end()
   const { username, password } = req.body
@@ -7,4 +6,3 @@ export default async function handler(req, res) {
   }
   return res.status(401).json({ error: 'Invalid credentials' })
 }
-"@ | Out-File -FilePath pages/api/admin/login.js -Encoding utf8

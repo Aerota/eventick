@@ -1,4 +1,3 @@
-@"
 import { supabase } from '../../../lib/supabaseClient'
 
 export default async function handler(req, res) {
@@ -23,4 +22,3 @@ export default async function handler(req, res) {
     recentTickets: recent || []
   })
 }
-"@ | Out-File -FilePath pages/api/admin/dashboard.js -Encoding utf8

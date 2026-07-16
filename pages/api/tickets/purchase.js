@@ -1,4 +1,3 @@
-@"
 import { supabase } from '../../../lib/supabaseClient'
 import { v4 as uuidv4 } from 'uuid'
 
@@ -42,4 +41,3 @@ export default async function handler(req, res) {
   }
   return res.status(200).json({ ticket: fullTicket })
 }
-"@ | Out-File -FilePath pages/api/tickets/purchase.js -Encoding utf8
